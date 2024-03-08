@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #4340c9;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.ControllerUserMenu">
+    <children>
+        <AnchorPane layoutY="75.0" prefHeight="425.0" prefWidth="700.0" style="-fx-background-color: #9291b8;">
+            <children>
+                <Text fill="#62f0e6" layoutX="297.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Меню">
+                    <font>
+                        <Font name="Complex_IV25" size="34.0" />
+                    </font>
+                </Text>
+            <Button fx:id="services_list_button" layoutX="14.0" layoutY="231.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="270.0" text="Посмотреть список услуг" />
+            <Button fx:id="visit_add_button" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="270.0" text="Записаться" />
+            <Button fx:id="delete_visit_button" layoutX="416.0" layoutY="14.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="270.0" text="Отменить запись" />
+            <Button fx:id="change_account_button" layoutX="586.0" layoutY="231.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Сменить аккаунт" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="exit_button" layoutX="586.0" layoutY="321.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Выйти" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="review_add_button1" layoutX="474.0" layoutY="321.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Оставить отзыв" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="reviews_button" layoutX="474.0" layoutY="231.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Посмотреть отзывы" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="promocode_button" layoutX="366.0" layoutY="231.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Применить промокод" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="contacts_button" layoutX="366.0" layoutY="321.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="100.0" text="Контакты" textAlignment="CENTER" wrapText="true" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="42.0" layoutY="14.0" text="Парикмахерская &quot;Модник&quot;" textFill="#62f0e6">
+            <font>
+                <Font name="Complex_IV25" size="39.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
